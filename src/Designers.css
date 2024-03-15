@@ -1,0 +1,40 @@
+.panel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.panel {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.panel img {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 790px) {
+    .panel-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+        transition: all 0.3s ease;
+        padding: 0;
+    }
+}

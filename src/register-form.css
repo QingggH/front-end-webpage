@@ -1,0 +1,94 @@
+.register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.register span {
+    color: #fff;
+}
+
+.register .form-alert {
+    color: red;
+}
+
+.register label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.register input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.register button,
+.register button:focus {
+    background-color: #2e3224;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.register button:hover,
+.register button:focus:hover {
+    background-color: #DCD0C0;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.checkbox-label input {
+    margin-right: 8px;
+}
+
+
+#billingAddress[readonly] {
+    background-color: #eee;
+}
+
+button {
+    background-color: #373737;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #373737;
+}

@@ -1,0 +1,51 @@
+.carousel-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 20px;
+    align-items: center;
+}
+
+.carousel-info {
+    width: calc(100% - 50px);
+    margin-left: 50px;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: calc(100% - 60px);
+    height: 100vh;
+    position: relative;
+    display: flex;
+    margin-right: 60px;
+    align-self: center;
+    align-items: center;
+}
+
+
+img {
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel-button:first-child {
+    left: 5px;
+}
+
+.carousel-button:last-child {
+    right: 5px;
+}

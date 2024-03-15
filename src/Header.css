@@ -1,0 +1,29 @@
+.header {
+    display: grid;
+    grid-template-areas:
+        "header-logo header-title header__navbar"
+    ;
+    grid-template-columns: auto 1fr auto;
+    background-color: #373737;
+}
+
+.header__navbar {
+    grid-area: header__navbar;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header__title {
+    grid-area: header-title;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 20px;
+    color: #C0B283;
+}
